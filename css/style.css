@@ -14,80 +14,6 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 22px;
 }
-@-webkit-keyframes easy {
-    0% {
-        -webkit-transform: translate(-2000px);
-        transform: translate(-2000px);
-    }
-    25% {
-        -webkit-transform: translate(-30px);
-        transform: translate(-30px);
-    }
-    50% {
-        -webkit-transform: translate(20px);
-        transform: translate(20px);
-    }
-    100% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-}
-@keyframes easy {
-    0% {
-        -webkit-transform: translate(-2000px);
-        transform: translate(-2000px);
-    }
-    25% {
-        -webkit-transform: translate(-30px);
-        transform: translate(-30px);
-    }
-    50% {
-        -webkit-transform: translate(20px);
-        transform: translate(20px);
-    }
-    100% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-}
-
-@-webkit-keyframes easyr {
-    0% {
-        -webkit-transform: translate(2000px);
-        transform: translate(2000px);
-    }
-    25% {
-        -webkit-transform: translate(-30px);
-        transform: translate(-30px);
-    }
-    50% {
-        -webkit-transform: translate(20px);
-        transform: translate(20px);
-    }
-    100% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-}
-
-@keyframes easyr {
-    0% {
-        -webkit-transform: translate(2000px);
-        transform: translate(2000px);
-    }
-    25% {
-        -webkit-transform: translate(-30px);
-        transform: translate(-30px);
-    }
-    50% {
-        -webkit-transform: translate(20px);
-        transform: translate(20px);
-    }
-    100% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-}
 /*RESET*/
 p,
 ul,
@@ -366,15 +292,11 @@ img {
     float: left;
     margin-right: 80px;
     width: 240px;
-    -webkit-animation: easy 2s ease-in-out 1;
-    animation: easy 2s ease-in-out 1;
 }
 .service-center {
     float: left;
     margin-right: 80px;
     width: 240px;
-    -webkit-animation: loader 2s ease-in-out 1;
-    animation: loader 2s ease-in-out 1;
 }
 .service-columns {
     margin-top: 25px;
@@ -396,8 +318,6 @@ img {
 .service-right {
     float: right;
     width: 240px;
-    -webkit-animation: easyr 2s ease-in-out 1;
-    animation: easyr 2s ease-in-out 1;
 }
 /*ОСНОВНОЙ КОНТЕНТ*/
 .content-left {
