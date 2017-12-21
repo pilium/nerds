@@ -393,7 +393,7 @@ img {
 .content-map-block {
     position: absolute;
     top: 90px;
-    left: 420px;
+    left: 40px;
     padding-top: 15px;
     padding-right: 20px;
     padding-bottom: 25px;
@@ -423,6 +423,7 @@ img {
     margin: 0 auto;
     height: 420px;
 }
+
 /*ФУТЕР*/
 .main-footer {
     margin-top: 80px;
@@ -519,6 +520,7 @@ img {
     margin-top: 10px;
     color: #283136;
 }
+
 /*ВСПЛЫВАЮЩЕЕ ОКНО*/
 @-webkit-keyframes loader {
     0% {
@@ -730,6 +732,7 @@ img {
     box-shadow: inset 0 3px 0 0 #b5b5b5;
     color: black;
 }
+
 /*ФИЛЬТР ЦЕНЫ*/
 .catalog-filter-controls {
     position: relative;
@@ -922,6 +925,7 @@ a.catalog-paginator-next {
     border: 2px solid #f2f2f2;
     background-color: white;
 }
+
 /*ОСНОВНОЙ БЛОК КАТАЛОГА*/
 .catalog-sort {
     padding-bottom: 16px;
